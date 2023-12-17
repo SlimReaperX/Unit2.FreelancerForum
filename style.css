@@ -1,20 +1,34 @@
 * {
-  margin: 0;
+  margin: 10px;
   box-sizing: border-box;
+  background-color: black;
 }
-.ad {
+
+.title {
+  border-width: 100%;
+  height: 50px;
+  color: crimson;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.freelancers {
+  width: 300px;
+  height: 350px;
+  background-color: rgb(224, 222, 222);
+  color: crimson;
+  text-size-adjust: 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  margin: 20px;
-}
-
-h1 {
-  text-decoration: underline;
-  margin: 30px;
-}
-
-h2 {
-  margin: 20px;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 300px;
+  height: 350px;
+  background-color: rgb(7, 7, 7);
+  color: crimson;
+  border-style: dotted;
+  border-width: 10px;
+  border-color: blueviolet;
 }
